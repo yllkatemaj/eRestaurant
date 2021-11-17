@@ -1,7 +1,7 @@
 ﻿
 namespace eRestaurant
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@ namespace eRestaurant
         {
             this.pnlSidebar = new System.Windows.Forms.Panel();
             this.pnlActive = new System.Windows.Forms.Panel();
-            this.btnRestaurant = new System.Windows.Forms.Button();
+            this.btnProducts = new System.Windows.Forms.Button();
             this.btnOrder = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.pnlContent = new System.Windows.Forms.Panel();
@@ -42,45 +42,45 @@ namespace eRestaurant
             // 
             this.pnlSidebar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pnlSidebar.Controls.Add(this.pnlActive);
-            this.pnlSidebar.Controls.Add(this.btnRestaurant);
+            this.pnlSidebar.Controls.Add(this.btnProducts);
             this.pnlSidebar.Controls.Add(this.btnOrder);
             this.pnlSidebar.Controls.Add(this.btnHome);
-            this.pnlSidebar.Location = new System.Drawing.Point(3, 15);
-            this.pnlSidebar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlSidebar.Location = new System.Drawing.Point(2, 10);
+            this.pnlSidebar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pnlSidebar.Name = "pnlSidebar";
-            this.pnlSidebar.Size = new System.Drawing.Size(258, 786);
+            this.pnlSidebar.Size = new System.Drawing.Size(172, 511);
             this.pnlSidebar.TabIndex = 0;
             // 
             // pnlActive
             // 
             this.pnlActive.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.pnlActive.Location = new System.Drawing.Point(3, 120);
-            this.pnlActive.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlActive.Location = new System.Drawing.Point(2, 78);
+            this.pnlActive.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pnlActive.Name = "pnlActive";
-            this.pnlActive.Size = new System.Drawing.Size(27, 70);
+            this.pnlActive.Size = new System.Drawing.Size(18, 45);
             this.pnlActive.TabIndex = 3;
             // 
-            // btnRestaurant
+            // btnProducts
             // 
-            this.btnRestaurant.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurant.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestaurant.Location = new System.Drawing.Point(34, 242);
-            this.btnRestaurant.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnRestaurant.Name = "btnRestaurant";
-            this.btnRestaurant.Size = new System.Drawing.Size(208, 66);
-            this.btnRestaurant.TabIndex = 2;
-            this.btnRestaurant.Text = "Restaurant";
-            this.btnRestaurant.UseVisualStyleBackColor = true;
-            this.btnRestaurant.Click += new System.EventHandler(this.btnRestaurant_Click);
+            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProducts.Location = new System.Drawing.Point(23, 157);
+            this.btnProducts.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Size = new System.Drawing.Size(139, 43);
+            this.btnProducts.TabIndex = 2;
+            this.btnProducts.Text = "Products";
+            this.btnProducts.UseVisualStyleBackColor = true;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
             // 
             // btnOrder
             // 
             this.btnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrder.Location = new System.Drawing.Point(34, 360);
-            this.btnOrder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnOrder.Location = new System.Drawing.Point(23, 234);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Size = new System.Drawing.Size(210, 66);
+            this.btnOrder.Size = new System.Drawing.Size(140, 43);
             this.btnOrder.TabIndex = 1;
             this.btnOrder.Text = "Order";
             this.btnOrder.UseVisualStyleBackColor = true;
@@ -90,10 +90,10 @@ namespace eRestaurant
             // 
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.Location = new System.Drawing.Point(34, 124);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnHome.Location = new System.Drawing.Point(23, 81);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(208, 66);
+            this.btnHome.Size = new System.Drawing.Size(139, 43);
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = true;
@@ -101,22 +101,21 @@ namespace eRestaurant
             // 
             // pnlContent
             // 
-            this.pnlContent.Location = new System.Drawing.Point(290, 15);
-            this.pnlContent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlContent.Location = new System.Drawing.Point(193, 10);
+            this.pnlContent.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(953, 786);
+            this.pnlContent.Size = new System.Drawing.Size(635, 511);
             this.pnlContent.TabIndex = 1;
             // 
-            // Form1
+            // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1290, 816);
+            this.ClientSize = new System.Drawing.Size(860, 530);
             this.Controls.Add(this.pnlContent);
             this.Controls.Add(this.pnlSidebar);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
-            this.Text = "e-Nxenesi";
+            this.Name = "Main";
+            this.Text = "eRestaurant";
             this.pnlSidebar.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -126,7 +125,7 @@ namespace eRestaurant
 
         private System.Windows.Forms.Panel pnlSidebar;
         private System.Windows.Forms.Panel pnlActive;
-        private System.Windows.Forms.Button btnRestaurant;
+        private System.Windows.Forms.Button btnProducts;
         private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Panel pnlContent;
