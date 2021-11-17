@@ -29,55 +29,107 @@ namespace eRestaurant
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.pnlSidebar = new System.Windows.Forms.Panel();
+            this.pnlActive = new System.Windows.Forms.Panel();
+            this.btnRestaurant = new System.Windows.Forms.Button();
+            this.btnOrder = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
+            this.pnlContent = new System.Windows.Forms.Panel();
+            this.pnlSidebar.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtEmail
+            // pnlSidebar
             // 
-            this.txtEmail.Location = new System.Drawing.Point(262, 62);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 26);
-            this.txtEmail.TabIndex = 0;
+            this.pnlSidebar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlSidebar.Controls.Add(this.pnlActive);
+            this.pnlSidebar.Controls.Add(this.btnRestaurant);
+            this.pnlSidebar.Controls.Add(this.btnOrder);
+            this.pnlSidebar.Controls.Add(this.btnHome);
+            this.pnlSidebar.Location = new System.Drawing.Point(3, 15);
+            this.pnlSidebar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlSidebar.Name = "pnlSidebar";
+            this.pnlSidebar.Size = new System.Drawing.Size(258, 786);
+            this.pnlSidebar.TabIndex = 0;
             // 
-            // txtPassword
+            // pnlActive
             // 
-            this.txtPassword.Location = new System.Drawing.Point(262, 134);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(100, 26);
-            this.txtPassword.TabIndex = 1;
+            this.pnlActive.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.pnlActive.Location = new System.Drawing.Point(3, 120);
+            this.pnlActive.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlActive.Name = "pnlActive";
+            this.pnlActive.Size = new System.Drawing.Size(27, 70);
+            this.pnlActive.TabIndex = 3;
             // 
-            // button1
+            // btnRestaurant
             // 
-            this.button1.Location = new System.Drawing.Point(262, 218);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRestaurant.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestaurant.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestaurant.Location = new System.Drawing.Point(34, 242);
+            this.btnRestaurant.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRestaurant.Name = "btnRestaurant";
+            this.btnRestaurant.Size = new System.Drawing.Size(208, 66);
+            this.btnRestaurant.TabIndex = 2;
+            this.btnRestaurant.Text = "Restaurant";
+            this.btnRestaurant.UseVisualStyleBackColor = true;
+            this.btnRestaurant.Click += new System.EventHandler(this.btnRestaurant_Click);
+            // 
+            // btnOrder
+            // 
+            this.btnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrder.Location = new System.Drawing.Point(34, 360);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(210, 66);
+            this.btnOrder.TabIndex = 1;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
+            // 
+            // btnHome
+            // 
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.Location = new System.Drawing.Point(34, 124);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(208, 66);
+            this.btnHome.TabIndex = 0;
+            this.btnHome.Text = "Home";
+            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // pnlContent
+            // 
+            this.pnlContent.Location = new System.Drawing.Point(290, 15);
+            this.pnlContent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Size = new System.Drawing.Size(953, 786);
+            this.pnlContent.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.txtEmail);
+            this.ClientSize = new System.Drawing.Size(1290, 816);
+            this.Controls.Add(this.pnlContent);
+            this.Controls.Add(this.pnlSidebar);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "e-Nxenesi";
+            this.pnlSidebar.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel pnlSidebar;
+        private System.Windows.Forms.Panel pnlActive;
+        private System.Windows.Forms.Button btnRestaurant;
+        private System.Windows.Forms.Button btnOrder;
+        private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.Panel pnlContent;
     }
 }
 

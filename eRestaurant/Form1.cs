@@ -24,11 +24,26 @@ namespace eRestaurant
         {
             userService = new UserService();
             User user = new User();
-            user.Email = txtEmail.Text;
-            user.Password = txtPassword.Text;
+            //user.Email = txtEmail.Text;
+            //user.Password = txtPassword.Text;
 
             User userFromDb = userService.Login(user);
             MessageBox.Show(userFromDb.Email + user.Role);
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRestaurant_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
