@@ -1,0 +1,11 @@
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\bin\Debug\Service.dll
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\bin\Debug\Service.pdb
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\bin\Debug\Access.dll
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\bin\Debug\Model.dll
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\bin\Debug\Access.pdb
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\bin\Debug\Model.pdb
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\obj\Debug\Service.dll
+C:\Users\HP\OneDrive\Desktop\Github\eRestaurant\Service\obj\Debug\Service.pdb
